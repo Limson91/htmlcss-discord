@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'DM Sans', sans-serif;
-    /* font-family: 'Fredoka', sans-serif; */
-    /* font-family: 'Open Sans', sans-serif; */
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -51,16 +45,6 @@ body {
 
 .col-10 {
     flex-basis: calc((100% / 12) * 10); /*dimensione orizzontale container rosa*/
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.main-title {
-    font-size: 60px;
-    margin: 30px;
 }
 
 .debug main .col-8 {
@@ -76,8 +60,8 @@ body {
 }
 
 .debug .page-header {
-    background-color: #255EE9;
-    padding: 30px; /*padding azzurro*/
+    background-color: #ADD8E6;
+    padding: 10px; /*padding azzurro*/
 }
 
 .debug .page-header .col {
@@ -88,26 +72,24 @@ body {
 
 .debug .info {
     background-color: #00008B;
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
 }
 
 .debug main section {
     padding: 20px; /*padding sfondo blu*/
     }
 
-/* .debug .info [class^='col'] {
+.debug .info [class^='col'] {
     background-color: #EE82EE;
-} */
+}
 
 .justify-center {
     justify-content: center;
 }
 
 .debug main [class^='col'] {
-    min-height: 500px; /*altezza minima container rosa*/
+    min-height: 200px; /*altezza minima container rosa*/
     padding: 20;
-    /* border: 1px dashed black; */
+    border: 1px dashed black;
 }
 
 .debug .green-box .col-12 {
