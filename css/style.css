@@ -72,6 +72,8 @@
 
 .debug .info {
     background-color: #00008B;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .debug main section {
@@ -87,7 +89,7 @@
 }
 
 .debug main [class^='col'] {
-    min-height: 200px; /*altezza minima container rosa*/
+    min-height: 500px; /*altezza minima container rosa*/
     padding: 20;
     border: 1px dashed black;
 }
